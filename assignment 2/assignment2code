@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body>
+
+    <nav>
+        <P>HOME  EXAMPLES   PAGE1   PAGE2   CONTACT </P>
+    </nav>
+    <MAIN>
+        <SECTIOn>
+            <h1>WELCOME TO THE GREEN TEMPLATE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum fuga nihil aliquid eos dolores nemo deleniti error recusandae molestiae ab praesentium perferendis earum quibusdam voluptatem eaque, dolorem qui aliquam laborum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellendus quis laudantium nulla totam est,
+                 reprehenderit in animi error vitae accusamus molestiae tenetur aperiam, iure iusto, hic voluptatibus debitis expedita?Lorem 
+                ipsum dolor sit, amet consectetur adipisicing elit. Ex, unde? Quas adipisci sapiente quasi fugit aliquam facere dolor rerum culpa eaque, expedita eius, magni, aperiam cupiditate voluptatibus at! Doloremque, minima.</p>
+            <p>This template is entirely written in <b>HTML</b> and <b>CSS</b>,and can be validated using the links the links in the footer</p>
+             <p>You can view more free HTML5 web templates <b>here</b></p> 
+             <p>This template is a fully functional 5 page website,with a page that gives examples of all the styles available in the design</p>
+       </SECTIOn>
+       <section>
+           <h1>BROWSER COMPATIBILITY</h1>
+           <p>This template has been tested in the following browsers:</p>
+           <p>Internet explorer 8 <br>Internet explorer 7 <br>Firefox 3.5 <br>Google 6 <br>Safari 4
+           </p>
+       </section>
+       <aside>
+           <h2>Latest News</h2>
+        <p> <b>New website launched</b> January 1st,2010</p>
+        <p>2010 sees the redesign of our website. Take a look around and let us know what you think <br> read more</p>
+        
+        <p> <b>New website launched</b> January 1st,2010</p>
+        <p>2010 sees the redesign of our website. Take a look around and let us know what you think <br> read more</p>      
+         <h1>Useful information</h1>
+         <p>Lorem ipsum</p>
+         <h1>Search</h1>
+        
+        <footer>
+         <p><b>COPYRIGHT &copy COLOUR_GREEN | HTML5 | CSS | DESIGN FROM HTML5WEBTEMPLATES.CO.UK</b></p>
+        </footer>
+       </aside>
+    </MAIN>
+</body>
+</html>
