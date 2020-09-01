@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman</title>
+</head>
+<body>
+    <h1><u>Batman</u></h1>
+    <p>Batman operates in the fictional <b>Gotham City</b> with assistance from various supporting characters, including butler Alfred,police commissioner Jim Gordon and vigilante allies such as Robin.Unlike most superheros,Batman does not possess any <b>inhuman superpower.</b></p>
+    
+    <h4>Images of Batman</h4>
+    <img src="batman1.jpeg" alt="Batman 1" height="200">
+    <img src="batman2.jpg" alt="Batman 2" height="200" width="250"><br>
+    <img src="batman3.jpeg" alt="Batman 3" height="200" width="400">
+    <img src="batman 4.jpg" alt="Batman 4" height="200" width="250">
+     <br><br>
+    <h3>Audio of Batman</h3>
+    <audio src="Batman.mp3" controls loop autoplay preload="auto"></audio>
+    <br><br>
+    <h3>Vidioes of Batman</h3>
+    <video src="BatmanVideo.mp4" controls loop autoplay preload="metadata" height="200"></video>
+    <video src="dark_knight.mp4" controls loop preload="metadata" height="200"></video>
+</body>
+</html>
