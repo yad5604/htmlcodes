@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+</head>
+<body bgcolor="teal">
+    <h1><u><i>Welcome ! To Coding Blocks juniour wedsite</i></u></h1>
+       <iframe src="https://jr.codingblocks.com" frameborder="3" height="500" width="1250" scrolling="yes"></iframe>
+
+    <h1><u><i>Some portion of other page :</i></u></h1>
+       <iframe src="assignment 7.html" height="180" width="400" frameborder="3"></iframe>
+       <iframe src="assignment 7.html#10" height="180" width="400" frameborder="3"></iframe>
+       <iframe src="assignment 7.html#5" height="180" width="400" frameborder="3"></iframe>
+
+    <h1><u><i>Embeding Some videos : </i></u></h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KEXKCGyMowM" frameborder="0"></iframe>
+    <iframe width="560" height="315" src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4" frameborder="0"></iframe>
+</body>
+</html>
