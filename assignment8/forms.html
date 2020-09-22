@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body bgcolor="#A4B0BD">
+    <h1><b>My Bio Data</b></h1>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="First">First Name :</label>
+            <input name="First" type="text" placeholder="First name ">
+            <label for="last">Last Name :</label>
+            <input name="last" type="text" placeholder="Second name">
+            <br>
+            <br>
+            <label for="gen">Gender :  </label>Male :
+            <input name="gen" type="radio">Female :
+            <input name="gen" type="radio">Other :
+            <input name="gen" type="radio">
+            <br>
+            <br>
+            <label for="dob">Date Of Birth :</label>
+            <input name="dob" type="text">
+            <br>
+            <br>
+            <label for="mail">E-Mail :</label>
+            <input name="mail" type="email" placeholder="abc@email.com">
+            <br>
+            <br>
+            <label for="phone">Phone :</label>
+            <input name="phone" type="tel" placeholder="+91">
+            <br>
+            <br>
+            <label for="hei">Height :</label>
+            <input name="hei" type="number">
+        </fieldset>
+            <br>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="school">School Name:</label>
+            <input name="school" type="text" placeholder="Your school name">
+            <br><br>
+            <label for="class">Class :</label>
+            <input name="class" type="number" placeholder="Your class">
+            <br><br>
+            <label for="stream">Stream :</label>
+            <select name="stream" id="stream">
+              <option value="stream">Stream</option>
+              <option value="maths">Mathematics</option>
+              <option value="bio">Biology</option>
+              <option value="com">Commerce</option>
+              <option value="art">Art</option>
+            </select>
+            <br><br>
+            <label for="mark">Marksheet :</label>
+            <input name="mark" type="file">
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    
+</body>
+</html>
