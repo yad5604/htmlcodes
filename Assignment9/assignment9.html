@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body bgcolor="aqua">
+    <form>
+        <h1>Reservation Request</h1>
+    <fieldset>
+        <legend>General Information</legend>
+        <label for="arrival">Arrival Date :</label>
+        <input name="arrival" type="date">
+        <br><br>
+        <label for="nights">Nights :</label>
+        <input name="nights" type="number" required>
+        <br><br>
+        <label for="adult">Adults :</label>
+        <select name="adult" id="adult">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="more">more</option>
+        </select>
+        <br><br>
+        <label for="child">Children :</label>
+        <select name="child" id="child">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="more">more</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Preferences</legend>
+        <label for="room">Room Type :</label>
+        <input type="radio" name="room">Standard
+        <input type="radio" name="room">Business
+        <input type="radio" name="room">Suite
+        <br><br>
+        <label for="bed">Bed Type :</label>
+        <input type="radio" name="bed">King
+        <input type="radio" name="bed">Doble Double
+        <br><br>
+        <label for="smoking"></label>
+        <input type="checkbox" name="smoking">Smoking
+        <br><br>
+        <label for="food">Food Options :</label>
+        <input type="text" list="li1">
+        <datalist id="li1">
+            <option >Veg</option>
+            <option >Non-veg</option>
+            <option >Both</option>
+        </datalist>   
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name">Name :</label>
+        <input type="text" name="name" required>
+        <br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" required>
+        <br><br>
+        <label for="phone">Phone :</label>
+        <input type="tel" name="phone" required pattern="[1-9]{1}[0-9]{9}">
+        <br><br>
+        <label for="pass">Password:</label>
+        <input type="password" name="pass">
+    </fieldset>
+    <fieldset>
+        <legend>Diatance Information</legend>
+        <label for="fuel">Fuel meter </label>
+        <meter name="fuel" min="0" max="100" value="85" low="20" high="50" optimum="80"></meter>
+        <br><br>
+        <label for="progress">Progress Bar </label>
+        <meter name="progress" max="100" value="85"></meter>
+        <br><br>
+        <label for="coment">Write about the place of visit :</label>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Enter your paragraph"></textarea>
+    </fieldset>
+    <br><br>
+    <input type="submit">
+    </form>
+</body>
+</html>
