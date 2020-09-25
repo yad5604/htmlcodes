@@ -1,0 +1,29 @@
+body{background-color: black;}
+
+h1{
+text-align: center;
+color:teal;
+font-size: xxx-large;
+text-shadow: -4px 4px rgb(223, 183, 6),
+            -8px 8px rgb(226, 40, 8),
+            -12px 12px rgba(167, 9, 167, 0.966);}
+
+h2{color: green;
+    text-decoration: line-through yellow;}
+
+.teal{color: rgb(75, 213, 238);}
+.red{
+color: brown;
+font-weight: bold;
+font-size: 20px;}
+
+#ave{font-size: medium;
+     font-weight: normal;}
+
+#map{font-weight: normal;
+      font-size: medium;}
+
+#two{color: purple;
+      text-transform: uppercase;}
+
+#three{color: rgb(201, 172, 7);}
