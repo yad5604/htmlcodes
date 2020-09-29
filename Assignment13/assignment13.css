@@ -1,0 +1,30 @@
+body{background-color: #1BCA9B;}
+
+div{background-color: white;
+    margin: 70px;
+    padding: 30px;}
+
+div#one{text-transform: capitalize;
+        word-spacing: 20px;
+        font-size: large;}
+
+div#two{line-height: 25px;}
+
+#port{font-weight: bold;}
+
+.cap{text-transform: capitalize;}
+
+#web{font-weight: bold;}
+
+#name{text-transform: uppercase;
+      font-size: large;}
+
+#he{font-size: 50px;
+    font-weight: bold;}
+
+    #view{color: turquoise;
+        padding: 3px;
+          border-color: turquoise;
+         border-width: 1 px;
+        border-style: solid;}
+
